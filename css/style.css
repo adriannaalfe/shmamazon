@@ -72,7 +72,7 @@ h3 {
   background-color: #305673;
 }
 .main-ad {
-  background-image: url("ad.png");
+  background-image: url("../images/ad.PNG");
   background-repeat: none;
   background-size: cover;
   width: 100%;
