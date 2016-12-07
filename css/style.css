@@ -6,10 +6,27 @@ body {
   height: 115px;
   background-color: #305673;
 }
-/*.footer {
+.footer {
   width: 100%;
-  height: 140px;
-}*/
+  height: 150px;
+  padding-bottom: 0px;
+}
+.shmamft {
+  color: white;
+  font-size: 18pt !important;
+  padding-top: 25px;
+  padding-left: 45px;
+}
+.foottext {
+  color: white;
+  font-family: helvetica, sans-serif;
+  padding-left: 45px;
+}
+.cr {
+  text-align: center;
+  color: white;
+  font-family: helvetica, sans-serif;
+}
 h1 {
   text-align: center;
   color: white;
@@ -27,7 +44,7 @@ h2 {
 h3 {
   font-family: helvetica, sans-serif !important;
   position: absolute;
-  padding-top: 715px !important;
+  padding-top: 60px !important;
   font-size: 30pt !important;
   padding-left: 10% !important;
   color: #305673;
@@ -87,20 +104,22 @@ h3 {
 .electronics {
   padding-top: 100px;
   padding-left: 10%;
-
   height: 280px;
-  width: auto;
-  position: absolute;
+  width: 460px;
+  float: left;
+  /*position: absolute;*/
 }
 .sports {
   float: right;
-  padding-top: 100px;
   padding-right: 10%;
+  padding-top: 100px;
+  /*position: relative;*/
 }
 .auto {
+  /*float: left;*/
   padding-top: 400px;
   padding-left: 10%;
-  position: absolute;
+  /*position: absolute;*/
 }
 .outdoor {
   float: right;
@@ -109,11 +128,155 @@ h3 {
   padding-right: 10%;
 }
 .deals {
-  padding-top: 780px;
+  padding-top: 125px;
   margin: auto;
   width: 80%;
 }
-
+/*-*/
+.PEI7 {
+  font-family: helvetica, sans-serif;
+  color: #5a5a59;
+  padding-top: 20px;
+  padding-left: 5%;
+}
+.side {
+  float: left;
+  padding-top: 75px;
+  padding-left: 4%;
+}
 .iphone {
   padding-top: 70px;
+  position: absolute;
+  padding-left: 11%;
+}
+.iphone7 {
+  font-family: helvetica, sans-serif;
+  padding-top: 70px;
+  padding-left: 34%;
+  font-size: 30pt;
+  color: #305673;
+}
+.info {
+  font-family: helvetica, sans-serif;
+  color: #5a5a59;
+  padding-left: 35%;
+  padding-top: 40px;
+  width: 280px;
+}
+.iprow {
+  padding-top: 40px;
+  padding-left: 34%;
+}
+.estdel {
+  font-family: helvetica, sans-serif;
+  color: #5a5a59;
+  width: 150px;
+  float: right;
+  clear: right;
+  padding-top: 10px;
+  padding-right: 55px;
+}
+.addto {
+  width: 215px;
+  height: 45px;
+  background-color: #e4b833;
+  float: right;
+  font-family: helvetica, sans-serif;
+  color: #5b492a;
+  font-size: 20pt;
+  text-align: center;
+}
+.addtext {
+  padding-top: 10px;
+}
+.pricestat {
+  font-family: helvetica, sans-serif;
+  float: right;
+  clear: right;
+  padding-top: 20px;
+  color: #5a5a59;
+  font-size: 20pt;
+  padding-right: 15px;
+  padding-bottom: 20px;
+}
+.gr {
+  color: #22881d;
+  float: right;
+}
+.protect {
+  width: 215px;
+  height: 90px;
+  background-color: white;
+  float: right;
+  clear: right;
+  font-family: helvetica, sans-serif;
+}
+.more {
+  font-family: helvetica, sans-serif;
+  padding-left: 5%;
+  font-size: 30pt;
+  color: #305673;
+}
+.morelike {
+  padding-top: 50px;
+  margin: auto;
+  width: 80%;
+}
+/*-*/
+.checkout {
+  padding-top: 80px;
+  font-family: helvetica, sans-serif;;
+  padding-left: 5%;
+  font-size: 30pt;
+  color: #305673;
+}
+.ott {
+  font-family: helvetica, sans-serif;
+  color: #4c4c4c;
+  font-size: 20pt;
+  padding-left: 5%;
+  padding-top: 25px;
+}
+.forms {
+  padding-left: 70px;
+}
+.place {
+  width: 215px;
+  height: 45px;
+  background-color: #e4b833;
+  float: right;
+  font-family: helvetica, sans-serif;
+  color: #5b492a;
+  font-size: 20pt;
+  text-align: center;
+  /*position: fixed;*/
+}
+.placetext {
+  padding-top: 10px;
+}
+.prvnot {
+  font-family: helvetica, sans-serif;
+  float: right;
+  clear: right;
+  width: 190px;
+  padding-top: 10px;
+  padding-right: 10px;
+  color: #4c4c4c;
+}
+.ordsum {
+  font-family: helvetica, sans-serif;
+  float: right;
+  clear: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  font-size: 20pt;
+  color: #4c4c4c;
+}
+.pricing {
+  font-family: helvetica, sans-serif;
+  float: right;
+  clear: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  color: #4c4c4c;
 }
