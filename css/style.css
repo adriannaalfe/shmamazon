@@ -1,0 +1,109 @@
+body {
+  background-color: #e3dfd5;
+}
+.header {
+  width: 100%;
+  height: 115px;
+  background-color: #305673;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+.menu {
+  font-family: arial, sans-serif;
+  color: white;
+  padding-top: 60px;
+  position: absolute;
+  float: left;
+}
+.products {
+  padding-left: 20px;
+  position: absolute;
+}
+.orders {
+  padding-left: 120px;
+  position: absolute;
+}
+.contact {
+  padding-left: 210px;
+  position: absolute;
+}
+.bg-blue {
+  background-color: #305673;
+}
+.main-ad {
+  background-image: url("images/ad.png");
+  background-repeat: none;
+  background-size: cover;
+  width: 100%;
+  height: 165px;
+}
+.search-container {
+  width: 100%;
+  height: 70px;
+  padding-top: 35px;
+  text-align: center;
+}
+.search-container input[type="text"] {
+  width: 400px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+.user {
+  float: right;
+  padding-right: 40px;
+  padding-top: 10px;
+}
+.cart {
+  float: right;
+  padding-right: 25px;
+  padding-top: 10px;
+}
+
+.electronics {
+  padding-top: 100px;
+  padding-left: 10%;
+
+  height: 280px;
+  width: auto;
+  position: absolute;
+}
+/*.drone {
+  padding-top: 100px;
+  padding-left: 397px;
+  position: absolute;
+  display: block;
+}
+.camera {
+  padding-top: 240px;
+  padding-left: 397px;
+  position: absolute;
+  display: block;
+}*/
+.sports {
+  float: right;
+  padding-top: 100px;
+  padding-right: 10%;
+}
+/*.nba {
+padding-top: 100px;
+padding-left: 1060px;
+display: block;
+}
+.ty {
+  padding-left: 1060px;
+  display: block;
+}*/
+.auto {
+  padding-top: 400px;
+  padding-left: 10%;
+  position: absolute;
+}
+.outdoor {
+  float: right;
+  padding-top: 400px;
+  /*padding-right: 10%;*/
+}
